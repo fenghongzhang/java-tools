@@ -18,4 +18,16 @@ public class StringUtil {
 		}
 		return false;
 	}
+	
+	/**
+	 * isNotEmpty
+	 * @param str String
+	 * @return boolean
+	 */
+	public static boolean isNotEmpty(String str) {
+		if(isEmpty(str)) {
+			return true;
+		}
+		return false;
+	}
 }
